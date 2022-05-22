@@ -28,7 +28,7 @@ public class Main {
 
 
         System.out.println("\nReplace all occurrences of 'Harry', case-insensitive -> \"[Hh][Aa][Rr][Rr][Yy]\"");
-        System.out.println("\tMy name is HARRY -> " + "My name is HARRY".replaceAll("[Hh][Aa][Rr][Rr][Yy]", "Harry"));
+        System.out.println("\tMy name is HARRY -> " + "My name is HARRY".replaceAll("[Hh][Aa][Rr][Rr][Yy]", "Harry")); //order is important!
         System.out.println("\tMy name is HaRry -> " + "My name is HaRry".replaceAll("[Hh][Aa][Rr][Rr][Yy]", "Harry"));
         System.out.println("\tMy name is harry -> " + "My name is harry".replaceAll("[Hh][Aa][Rr][Rr][Yy]", "Harry"));
 
